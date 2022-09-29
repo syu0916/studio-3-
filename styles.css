@@ -5,10 +5,26 @@
 /* Uncomment below if images are way too big.
 Selects all image tags and makes them 500px;
  */
-/*img {*/
-/*  width: 500px;*/
-/*}*/
+img {
+ object-fit: cover; 
+ width: 250px;
+}
 
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
 .gallery-container {
+  display: flex;
+  
+  row-gap: 20px;
+  column-gap: 20px;
+
+  justify-content: space-evenly;
+  /*flex-wrap: wrap; */
+  flex-flow: row wrap;
+  padding-top:  25px 25px 25px 25px;
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
 }
